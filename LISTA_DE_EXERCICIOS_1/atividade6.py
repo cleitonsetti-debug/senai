@@ -1,4 +1,4 @@
-peso = float(input("insira o peso :"))
+peso = float(input("insira o peso do prato do cliente em kg :"))
 preco_por_kg = 12
 total = peso * preco_por_kg
 
