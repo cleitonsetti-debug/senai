@@ -1,18 +1,6 @@
-contador = 1
-notas = 0
+nota = float(input("insira primeira nota: "))
+nota2 = float(input("insira segunda nota: "))
+nota3 = float(input("insira terceira nota: "))
 
-while contador <= 3:
-    nota = float(input(f"digite a nota { contador } "))
-    if nota < 0 or nota > 10:
-        print("nota invalida. a nota deve estar entre 0 e 10")
-        continue
-    contador += 1
-    notas += nota
-    media = notas / 4
-    print("a media de notas e: ", media)
-    if media >= 7:
-        print("o aluno esta aprovado")
-    if media >= 5:
-        print("o aluno esta em recuperação")
-    else:
-        print("o aluno esta reprovado")
+media = (nota *1) + (nota2 *2) + (nota3 * 3) /(1+2+3)
+print("media das notas e", media)
