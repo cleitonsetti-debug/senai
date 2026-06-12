@@ -14,7 +14,7 @@ while True:
             print("escolha uma diaria de pelo menos um dia")
             break
         
-        if dias > 30:
+        if dias <= 30:
             print("Erro: O limite máximo para reserva online é de 30 dias.")
             
         valor_total = dias * PRECO_DIARIA
